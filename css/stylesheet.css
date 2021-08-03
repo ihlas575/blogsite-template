@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+body {
+    background: #CAFAFE;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.skill__points {
+    list-style: none;
+    font-family: 'Prata', serif;
+}
+
+#banner-section {
+    background-image: url("../images/bg-images/banner-desktop-img.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+.banner_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #avatar-mobile-photo {
+        display: none;
+    }
+
+    .profile {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .skill__points {
+        padding-left: 80px;
+    }
+
+    .contact__div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #avatar-mobile-photo {
+        display: none;
+    }
+
+    .profile {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .skill__points {
+        margin-left: 80px;
+    }
+
+    .contact__div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #avatar-mobile-photo {
+        display: none;
+    }
+
+    .profile {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .about__profile {
+        padding: 40px;
+    }
+
+    .contact__div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .contact__div__2 {
+    	padding-left: 100px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #avatar-mobile-photo {
+        display: none;
+    }
+
+    .about__profile {
+        padding: 40px;
+    }
+
+    .contact__div {
+        padding-left: 30px;
+    }
+
+    .contact__div__1 {
+        margin-bottom: 20px;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #banner-section {
+        background-image: url("../images/bg-images/banner-desktop-img.jpg");
+        background-repeat: none;
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+    }
+
+    #avatar-desktop-photo {
+        display: none;
+    }
+
+    .about__profile {
+        padding: 40px;
+    }
+
+    .contact__div {
+        padding-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .contact__div__1 {
+        margin-bottom: 20px;
+    }
+}
